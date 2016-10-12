@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.flexbox-row {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.flexbox-column {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+}
+
+#landing-navbar {
+    font-family: 'Cairo', sans-serif;
+    height: 9vh;
+}
+
+#landing-navbar-title-div {
+    width: 72%;
+   /* border:solid black 1px;*/
+}
+
+#landing-navbar-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    padding-right: 25%;
+
+}
+
+#landing-navbar-button-div {
+    width: 10%;
+    /*border:solid black 1px;*/
+}
+
+.landing-navbar-button {
+    width: 50%;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-top: 12%;
+}
+
+#landing-jumbo-div {
+    height: 75vh;
+    background-color: #e9eaea;
+    font-family: 'Marvel', sans-serif;
+}
+
+#jumbo-text-div {
+    margin: 4% auto 0 auto;
+    width: 60%;
+    text-align: center;
+    font-size: 2em;
+    /*border: solid black 1px;*/
+}
+
+#jumbo-text {
+    font-weight: lighter;
+}
+
+#jumbo-form-div {
+    width: 60%;
+    height: 60%;
+    margin: 5% auto 0 auto;
+}
+
+#form-img-div {
+    width: 49%;
+    /*border: solid black 1px;*/
+}
+
+#jumbo-img {
+    margin: 10% auto 0 40%;
+    width: 40%;
+    height: 50%;
+}
+#jumbo-form {
+    /*border: solid black 1px;*/
+    width: 49%;
+    height: 100%;
+}
+
+#jumbo-form-title {
+    text-align: center;
+    margin: 5% 0 5% 0;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: grey;
+}
+.jumbo-form-input {
+    width: 55%;
+    height: 12%;
+    margin: 0 auto 0 auto;
+}
+
+#jumbo-submit {
+    margin: 8% auto 0 auto;
+    width: 55%;
+    height: 12%;
+    background-color:  deepskyblue;
+    border: none;
+    font-size: 2em;
+    font-weight: lighter;
+    font-family: 'Marvel', sans-serif;
+}
+
+#info-video-div {
+    width: 50vw;
+    height: 50vh;
+    /*border: solid black 1px;*/
+    margin:0 auto 0 auto;
+}
+
+#video-text-div {
+    width:40%;
+    margin-top: 10%;
+    /*border: solid black 1px;*/
+    font-family: 'Marvel', sans-serif;
+}
+
+#video-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 12% 0 0 10%;
+}
+
+#video-text {
+    width: 80%;
+    margin: 5% auto 0 auto;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+#video-div {
+    width: 60%;
+    margin: 10% auto;
+    /*border: solid black 1px;*/
+}
+
+#info-video {
+    width: 100%;
+    border: solid black 1px;
+}
+
+#how-it-works-div {
+    width: 100VW;
+    height: 90vh;
+    background-color: #e9eaea;
+
+    border: solid black 1px;
+    font-family: 'Marvel', sans-serif;
+}
+
+#how-it-works-title {
+    text-align: center;
+    margin: 3% 0 0 0;
+    font-size: 2.5em;
+    font-weight: bolder;
+
+}
+.works-div {
+    width: 100%;
+    margin: 2% auto 0 auto;
+    /*border: solid black 1px;*/
+}
+
+.works-text-div {
+    width: 100%;
+    text-align: center;
+    /*border: solid black 1px;*/
+}
+
+.works-left-title {
+    margin: 5% 0 0 60%;
+    font-size: 2em;
+    font-weight:bold;
+}
+
+.works-text-left {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    margin: 2% 0 0 60%;
+}
+
+.works-right-title {
+    margin: 5% 55% 0 0%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.works-text-right {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    margin: 2% 55% 0 0%;
+}
+
+#divider-divs {
+    height: 75vh;
+    margin-top: 2.5%;
+}
+.works-divider-div {
+   /* border: solid black 1px;*/
+}
+.works-divider-circle{
+    margin: 2% 0 0 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid skyblue 4px;
+}
+
+.divider-circle-text {
+    text-align: center;
+    font-size: 2em;
+}
+
+.works-divider-line {
+    width: 10%;
+    height: 12vh;
+    margin: 0 auto 0 auto;
+    background-color: skyblue;
+    border: solid skyblue 1px;
+}
+
+.works-column {
+    width: 48%;
+    margin: 0 auto 0 auto;
+    /*border: solid black 1px;*/
+}
+
+#left-column {
+
+}
+
+#step2 {
+    margin-top: 19%;
+}
+
+#step3 {
+    margin-top:23%;
+}
+
+#step4 {
+    margin-top:22%;
+}

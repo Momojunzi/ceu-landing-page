@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Cairo|Marvel" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <title>CEU</title>
+</head>
+<body>
+    <div id="landing-navbar" class="flexbox-row">
+        <div id="landing-navbar-title-div">
+            <h1 id="landing-navbar-title">Alpha & Omega</h1>
+        </div>
+        <div id="landing-navbar-button-div" class="flexbox-row">
+            <a href class="landing-navbar-button">login</a>
+            <a href class="landing-navbar-button">sign up</a>
+        </div>
+    </div>
+    <div id="landing-jumbo-div" class="flexbox-column">
+        <div id="jumbo-text-div">
+            <h2 id="jumbo-text">Continuing Education For A Better World</h2>
+        </div>
+        <div id="jumbo-form-div" class="flexbox-row">
+            <div id="form-img-div">
+                <img src="https://openclipart.org/image/800px/svg_to_png/185202/online-presentation-female.png" id="jumbo-img">
+            </div>
+            <form id="jumbo-form" class="flexbox-column">
+                <h3 id="jumbo-form-title">sign up and start learning now</h3>
+                <input type="email" name="email" class="jumbo-form-input" placeholder="   email">
+                <input type="text" name="password" class="jumbo-form-input" placeholder="   password">
+                <input type="text" name="username" class="jumbo-form-input" placeholder="   user name">
+                <input type="submit" name="jumbo-submit" id="jumbo-submit" value="sign up">
+            </form>
+        </div>
+    </div>
+    <div id="info-video-div" class="flexbox-row">
+        <div id="video-text-div">
+            <h3 id="video-title">Why take an online CEU?</h3>
+            <p id="video-text">Hear Dr. Jamie Hampton explain why Online CEUs are great for learning and give you an edge on advancing your health care career</p>
+        </div>
+        <div id="video-div">
+            <video id="info-video" controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <div id="how-it-works-div" class="flexbox-column">
+        <h2 id="how-it-works-title">How Alpha & Omega works</h2>
+        <div class="works-div flexbox-row">
+            <div id="left-column" class="flexbox-column works-column">
+                <div class="works-text-div">
+                    <h3 class="works-left-title">Choose your CEU</h3>
+                    <p class="works-text-left">Choose from our library of available CEU's</p>
+                </div>
+                <div class="works-text-div" id="step3">
+                    <h3 class="works-left-title">Pass Your Exam</h3>
+                    <p class="works-text-left">Put the knowledge you learned to the test with our challenging exams</p>
+                </div>
+            </div>
+            <div id="divider-divs" class="flexbox-column">
+                <div class="works-divider-div flexbox-column">
+                    <div class="works-divider-circle">
+                        <p class="divider-circle-text">1</p>
+                    </div>
+                    <div class="works-divider-line"></div>
+                </div>
+                <div class="works-divider-div flexbox-column">
+                    <div class="works-divider-circle">
+                        <p class="divider-circle-text">2</p>
+                    </div>
+                    <div class="works-divider-line"></div>
+                </div>
+                <div class="works-divider-div flexbox-column">
+                    <div class="works-divider-circle">
+                        <p class="divider-circle-text">3</p>
+                    </div>
+                    <div class="works-divider-line"></div>
+                </div>
+                <div class="works-divider-div flexbox-column">
+                    <div class="works-divider-circle">
+                        <p class="divider-circle-text">4</p>
+                    </div>
+                </div>
+            </div>
+            <div id="right-column" class="flexbox-column works-column">
+                <div class="works-text-div" id="step2">
+                    <h3 class="works-right-title">Learn with our interactive lessons</h3>
+                    <p class="works-text-right">You choose your own pace and learn at your own speed</p>
+                </div>
+                <div class="works-text-div" id="step4">
+                    <h3 class="works-right-title">Earn your certificate, collect your CEUs!</h3>
+                    <p class="works-text-right">You're done and ready to go out in the world</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
